@@ -11,3 +11,12 @@ AllCops:
     - node_modules/**/*
     - tmp/**/*
     - vendor/**/*
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
